@@ -364,10 +364,14 @@
 		FC1F730A171E776800E752BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sanat Thite (J7WNE329FB)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Testing/Testing-Prefix.pch";
 				INFOPLIST_FILE = "Testing/Testing-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E2E3C223-4646-43B8-BF17-50F257553182";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -375,10 +379,14 @@
 		FC1F730B171E776800E752BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Gustavo Sanabria";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Testing/Testing-Prefix.pch";
 				INFOPLIST_FILE = "Testing/Testing-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -432,6 +440,7 @@
 				FC1F730B171E776800E752BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC1F7335171E80BD00E752BA /* Build configuration list for PBXNativeTarget "TestingBundle" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +449,7 @@
 				FC1F7337171E80BD00E752BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
