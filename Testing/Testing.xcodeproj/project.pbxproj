@@ -394,6 +394,8 @@
 		FC1F7336171E80BD00E752BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sanat Thite (J7WNE329FB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sanat Thite (J7WNE329FB)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -402,6 +404,8 @@
 				GCC_PREFIX_HEADER = "TestingBundle/TestingBundle-Prefix.pch";
 				INFOPLIST_FILE = "TestingBundle/TestingBundle-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E2E3C223-4646-43B8-BF17-50F257553182";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E2E3C223-4646-43B8-BF17-50F257553182";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -409,6 +413,8 @@
 		FC1F7337171E80BD00E752BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Gustavo Sanabria";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Gustavo Sanabria";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -417,6 +423,8 @@
 				GCC_PREFIX_HEADER = "TestingBundle/TestingBundle-Prefix.pch";
 				INFOPLIST_FILE = "TestingBundle/TestingBundle-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;

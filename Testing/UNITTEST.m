@@ -37,6 +37,8 @@
 
 - (void) testAdd {
 
+    
+    STAssertEquals(5, 5, @"some error occured by abhishek");
 }
 
 @end
